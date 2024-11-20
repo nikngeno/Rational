@@ -75,15 +75,15 @@ public class Rational
         Rational r1 = new Rational(1, 2);
         Rational r2 = new Rational(2, 4);
 
-        Console.WriteLine("Static method result:");
+        Console.WriteLine("Static Multiply method result:");
         Rational result1 = Rational.Multiply(r1, r2);
         WriteRational(result1);  
 
-        Console.WriteLine("Instance method result with two parameters:");
+        Console.WriteLine("Instance Multiply method result with two parameters:");
         Rational result2 = r1.Multiply2(r1, r2);
         WriteRational(result2);  
 
-        Console.WriteLine("Instance method result with one parameter:");
+        Console.WriteLine("Instance Multiply method result with one parameter:");
         Rational result3 = r1.Multiply(r2);
         WriteRational(result3); 
     }
